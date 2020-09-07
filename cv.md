@@ -1,8 +1,8 @@
 # NemesisUA
 ## my contacts
-email: display.n0ne.01@gmail.com
-diskord: tanyaPCP#9890
-telephone: +380997001153
+*email: display.n0ne.01@gmail.com
+*diskord: tanyaPCP#9890
+*telephone: +380997001153
 ## Summary
 beginner with a big passion to make perfect sites
 ## Skils
