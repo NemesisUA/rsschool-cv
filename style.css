@@ -78,6 +78,31 @@ li {
     border-radius: 50%;
     border: 2px solid rgb(92, 203, 236);
 }
+/* skills bar */
+.bar-container {
+    width: 100%;
+    background-color: grey;
+}
+
+.skill-bar {
+    padding-left: 10px;
+    color: rgb(80, 79, 79);
+}
+
+.ukr {
+    width: 100%;
+    background-color: lightblue;
+}
+
+.rus {
+    width: 88%;
+    background-color: lightblue;
+}
+
+.eng {
+    width: 50%;
+    background-color: lightblue;
+}
 
 footer {
     display: flex;
