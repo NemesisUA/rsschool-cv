@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    width: 1020px;
+    margin: 10px auto;
     background-color: lightcyan;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
@@ -9,8 +11,6 @@ body {
 .wrapper {
     display: flex;
     justify-content: space-around;
-    width: 1020px;
-    margin: 10px auto;
     padding: 50px 100px;
     background-color:white;
 }
@@ -26,4 +26,31 @@ h1 {
 
 h2 {
     color: darkblue;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 30px;
+    background-color: lightgray;
+    
+}
+
+.gitlink {
+    margin-right: auto;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.rslink {
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.gitlink:hover,
+.rslink:hover {
+    background-color:lightblue;
+    box-shadow: 0 0 5px lightblue;
 }
