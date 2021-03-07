@@ -1,55 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>myCV</title>
-    <link href="style.css" rel="stylesheet">
-</head>
-<body>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="column">
-        <h1>NemesisUA</h1>
+      <aside>
+        <img class="avatar" src="nemezida.png" alt="photo" width="300" />
         <section>
-           <h2>my contacts</h2>
-           <p>email: display.n0ne.01@gmail.com</p> 
-           <p>diskord: tanyaPCP#9890</p>
-           <p>telephone: +380997001153</p>
-        </section>
-        <section>
-            <h2>Summary</h2>
-            <p>beginner with a big passion to make perfect sites</p>
-        </section>
-        <section>
-            <h2>Skils</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JS</li>
-                <li>Git</li>
-                <li>Photoshop</li>
+            <h2>Contacts</h2>
+            <ul class="contacts">
+            <li><span class="blue">Email:</span> display.n0ne.01@gmail.com</li>
+            <li><span class="blue">Discord:</span> tanyaPCP#9890</li>
+            <li><span class="blue">Telephone:</span> +380997001153</li>
+            <li><span class="blue">Github:</span> NemesisUA</li>
             </ul>
         </section>
         <section>
-            <h2>experience</h2>
-            <p>writing my hobbies sites</p>
+            <h2>Languages</h2>
+            
+                <p>Ukrainian</p>
+                <div class="bar-container">
+                    <div class="skill-bar ukr">native</div>
+                </div>
+                <p>Russian</p>
+                <div class="bar-container">
+                    <div class="skill-bar rus">free</div>
+                </div>
+                <p>English</p>
+                <div class="bar-container">
+                    <div class="skill-bar eng">pre-intermediate</div>
+                </div>
+            
         </section>
         <section>
-            <h2>education</h2>
-            <p>IFDTUNG, control and automation systems. Master of Computer Science</p>
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Economic</li>
+                <li>Traiding</li>
+                <li>Poker</li>
+                <li>Sci-fi literature</li>
+            </ul>
         </section>
-        <section>
-            <h2>English</h2>
-            <p>English level - intermediate.</p>
-            <h3>Experience</h3>
-            <p><i>Everyday reading of articles (mainly in economic and technical analysis)</i></p>
-        </section>
-        </div>
+      </aside>
+      
 
-        <div class="column">
-            <img src="nemezida.png" alt="photo" width="300px">
-        </div>
+      <main>
+        <h1>TANYA <span>NemesisUA</span></h1>
+        <article>        
+          <h3>Web developer</h3>
+          <p class="about-me">Hello, I'm beginner webdeveloper. My passion is to write sites and to solve tasks at Codewars.</p>
+        </article>
+        <section>
+          <h2>Skils</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>Git</li>
+            <li>Figma</li>
+            <li>PHP basics</li>
+          </ul>
+        </section>
+        <section>
+            <h2>code example</h2>
+            <p>Currying functions: multiply all elements in an array</p>
+          <pre>
+              <code>
+              function MultiplyAll(array) {
+                  return function(intN) {
+                     return array.map(arrayN => arrayN * intN);
+                  } 
+              }
+              </code>
+            </pre>
+          </section>
+        <section>
+          <h2>experience</h2>
+            <p>some of my projects:</p>
+            <ul>
+                <li><a href="https://nemesisua.github.io/webdew2/" target="_blank">webdew</a></li>
+                <li><a href="#">calculator</a></li>
+                <li><a href="#" target="_blank">shelter</a></li>
+            </ul>
+        </section>
+        <section>
+          <h2>education</h2>
+          <p>Master of Computer Science</p>
+          <p>IFDTUNG, Computer technologies and automation systems.</p>
+        </section>
+        
+      </main>
     </div>
-    
-</body>
+
+    <footer>
+      <div class="gitlink">
+        <a href="https://github.com/NemesisUA" target="_blank"
+          ><img src="assets/giticon.png" alt="github icon" height="50"
+        /></a>
+      </div>
+      <div class="rslink">
+        <a href="https://rs.school/js/" target="_blank"
+          ><img src="assets/rs_school_js.svg" alt="rs-school icon" height="30"
+        /></a>
+      </div>
+      <div class="year">
+        <span><b>, 2021</b></span>
+      </div>
+    </footer>
+  </body>
 </html>
