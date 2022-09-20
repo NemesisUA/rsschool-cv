@@ -12,8 +12,8 @@ Hi, I am a junior frontend developer. I like magic of JavaScript: how it works w
 * Git
 * Figma
 ## Code examples
-*Digital root is the recursive sum of all the digits in a number.*
-*132189  -->  1 + 3 + 2 + 1 + 8 + 9 = 24  -->  2 + 4 = 6*
+*Digital root is the recursive sum of all the digits in a number.*  
+*example: 132189  -->  1 + 3 + 2 + 1 + 8 + 9 = 24  -->  2 + 4 = 6*
 ```js
   function digitalRoot(n) {
     return n < 10 ? n : digitalRoot(String(n).split('').reduce((a, b) => a + +b, 0));
@@ -28,3 +28,6 @@ IFDTUNG, control and automation systems. Master of Computer Science
 English level - B2
 ## Experience
 *I am trying to read something in English every day*
+## Certificates
+https://testprovider.com/ru/search-certificate/TP77504335  
+https://testprovider.com/ru/search-certificate/TP21998026  
