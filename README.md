@@ -1,1 +1,1 @@
-https://nemesisua.github.io/rsschool-cv/cv
+https://nemesisua.github.io/rsschool-cv/
