@@ -1,1 +1,1 @@
-# rsschool-cv
+https://nemesisua.github.io/rsschool-cv/
