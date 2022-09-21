@@ -32,7 +32,7 @@
   
       <div class="header__content">
         <div class="avatar-wrapper">
-          <img class="avatar" src="nemezida.png" alt="photo" width="100%" />
+          <img class="avatar" src="assets/nemezida.png" alt="photo" width="100%" />
         </div>  
         
         <article>
@@ -90,24 +90,22 @@
           <section id="Skils">
             <h2>Skils</h2>
             <ul>
-              <li>HTML</li>
-              <li>CSS</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
               <li>JS</li>
               <li>Git</li>
-              <li>Figma</li>
-              <li>PHP basics</li>
+              <li>Figma</li>              
             </ul>
           </section>
           <section id="code">
               <h2>code example</h2>
-              <p>Currying functions: multiply all elements in an array</p>
+              <p>Digital root is the recursive sum of all the digits in a number.</p>  
+               <p>example: 132189  -->  1 + 3 + 2 + 1 + 8 + 9 = 24  -->  2 + 4 = 6</p>
             <pre>
                 <code>
-  function MultiplyAll(array) {
-    return function(intN) {
-      return array.map(arrayN => arrayN * intN);
-    } 
-  }
+function digitalRoot(n) {
+    return n < 10 ? n : digitalRoot(String(n).split('').reduce((a, b) => a + +b, 0));
+}
                 </code>
               </pre>
             </section>
