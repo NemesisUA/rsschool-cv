@@ -13,7 +13,7 @@
 <body>
     <header class="header">
         <div class="header__container">
-          <a href="" class="header__logo"><img src="assets/address-card-solid.svg"></a>
+          <a href="" class="header__logo"><img src="assets/address-card-solid.svg" alt="logo"></a>
           <div class="header__menu menu">
             <div class="menu__icon">
               <span></span>
@@ -35,7 +35,7 @@
   
       <div class="header__content">
         <div class="avatar-wrapper">
-          <img class="avatar" src="assets/nemezida.png" alt="photo" width="100%" />
+          <img class="avatar" src="assets/nemezida.png" alt="photo">
         </div>  
         
         <article>
@@ -107,7 +107,7 @@
             <pre>
                 <code>
 function digitalRoot(n) {
-    return n < 10 ? n : digitalRoot(String(n).split('')
+    return n &lt 10 ? n : digitalRoot(String(n).split('')
                                              .reduce((a, b) => a + +b, 0));
 }
                 </code>
